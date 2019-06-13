@@ -14,14 +14,15 @@
   "author": "Jeremy Greer <jex.grizzle@gmail.com>",
   "license": "ISC",
   "devDependencies": {
+    "@babel/plugin-proposal-object-rest-spread": "^7.4.4",
+    "@babel/preset-env": "^7.4.5",
     "babel-cli": "^6.9.0",
     "babel-core": "^6",
-    "babel-eslint": "7",
+    "babel-eslint": "6",
     "babel-plugin-transform-object-rest-spread": "^6.26.0",
     "babel-preset-env": "^1.6.1",
     "babel-register": "^6.26.0",
     "eslint": "3.x",
-    "jest": "^24.8.0",
-    "nodemon": "^1.19.1"
+    "jest": "^24.8.0"
   }
 }
