@@ -1,7 +1,7 @@
 {
   "name": "PROJECT_NAME",
   "version": "1.0.0",
-  "main": "src/index.js",
+  "main": "lib/index.js",
   "scripts": {
     "start": "./node_modules/@babel/node/bin/babel-node.js src/index.js",
     "test": "jest src --config jest.config.js",
