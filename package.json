@@ -7,6 +7,7 @@
     "test": "jest src --config jest.config.js",
     "lint": "eslint src",
     "build": "babel src -d lib --ignore '**/*.test.js,__mocks__'",
+    "prepublishOnly": "yarn build",
     "test-report": "yarn test --coverage",
     "lint-report": "yarn lint --format json --output-file eslint-report.json",
     "report": "yarn test-report && yarn lint-report && sonar-scanner"
